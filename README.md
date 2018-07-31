@@ -6,3 +6,5 @@
 1. make clean
 2. make 
 3. ./FRNSHEAAN
+
+## Notice that this code will run only at gcc (this code use unsigned __int128 variable)
