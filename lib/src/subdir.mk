@@ -15,8 +15,7 @@ CPP_SRCS += \
 ../src/SecretKey.cpp \
 ../src/StringUtils.cpp \
 ../src/TestScheme.cpp \
-../src/TimeUtils.cpp \
-../src/main.cpp 
+../src/TimeUtils.cpp 
 
 OBJS += \
 ./src/Ciphertext.o \
@@ -30,8 +29,7 @@ OBJS += \
 ./src/SecretKey.o \
 ./src/StringUtils.o \
 ./src/TestScheme.o \
-./src/TimeUtils.o \
-./src/main.o 
+./src/TimeUtils.o 
 
 CPP_DEPS += \
 ./src/Ciphertext.d \
@@ -45,15 +43,14 @@ CPP_DEPS += \
 ./src/SecretKey.d \
 ./src/StringUtils.d \
 ./src/TestScheme.d \
-./src/TimeUtils.d \
-./src/main.d 
+./src/TimeUtils.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O3 -c -std=c++11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	g++ -I/usr/local/include -O3 -c -std=c++11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
