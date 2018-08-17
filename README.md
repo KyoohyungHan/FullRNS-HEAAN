@@ -2,7 +2,11 @@
 
 ## This code is implementation of the paper "A Full RNS variant of Approximate Homomorphic Encryption" which will appear in SAC 2018.
 
-## To run this code, you need to type as follows:
+## To install the HE library, you need to type in the "lib" folder as follows:
+1. make clean
+2. make all
+
+## To run and test this code, you need to type in the "run" folder as follows:
 1. make clean
 2. make 
 3. ./FRNSHEAAN
