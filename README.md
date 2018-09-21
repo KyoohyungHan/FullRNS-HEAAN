@@ -8,3 +8,10 @@
 3. ./FRNSHEAAN
 
 ## Notice that this code will run only at gcc (this code uses unsigned __int128 variable)
+
+## License
+Copyright (c) by CryptoLab inc.
+This program is licensed under a
+Creative Commons Attribution-NonCommercial 3.0 Unported License.
+You should have received a copy of the license along with this
+work.  If not, see <http://creativecommons.org/licenses/by-nc/3.0/>.
