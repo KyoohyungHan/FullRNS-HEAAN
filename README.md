@@ -7,7 +7,7 @@
 2. make 
 3. ./FRNSHEAAN
 
-## Notice that this code will run only at gcc (this code uses unsigned __int128 variable)
+- Notice that this code will run only at gcc (this code uses unsigned __int128 variable)
 
 ## License
 Copyright (c) by CryptoLab inc.
