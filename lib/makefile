@@ -38,13 +38,13 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: libHEAAN.a
+all: libFRNSHEAAN.a
 
 # Tool invocations
-libHEAAN.a: $(OBJS) $(USER_OBJS)
+libFRNSHEAAN.a: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC Archiver'
-	ar -r  "libHEAAN.a" $(OBJS) $(USER_OBJS) $(LIBS)
+	ar -r  "libFRNSHEAAN.a" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -9,7 +9,7 @@ all: FRNSHEAAN
 FRNSHEAAN:
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -std=c++11 -pthread -o "FRNSHEAAN" main.cpp ../lib/libHEAAN.a -I/../src/
+	g++ -std=c++11 -pthread -o "FRNSHEAAN" main.cpp ../lib/libFRNSHEAAN.a -I/../src/
 	@echo 'Finished building target: $@'
 	@echo ' '
 
